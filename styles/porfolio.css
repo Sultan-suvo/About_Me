@@ -1,0 +1,255 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.text-primary {
+    color: #fd6e0a;
+}
+
+.btn-primary {
+    background-color: #fd6e0a;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    height: 64px;
+    font-size: 25px;
+}
+
+/* header and navigation starts here */
+.header {
+    background: #fff8f3;
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-tittle {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+
+/* header and navigation ends here */
+
+/* banner starts here */
+.banner {
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-sub-tittle {
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.banner-tittle {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner-desc {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* banner ends here */
+
+/* main starts here */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* main ends here */
+
+/* about starts here */
+.about {
+    margin-top: 130px;
+    background: #fff8f3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.about-tittle {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.about-desc {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-tittle {
+    font-size: 20px;
+    color: #757575;
+
+}
+
+.info-desc {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* about ends here */
+/* what i do starts here */
+.what-i-do {
+    margin-top: 130px;
+}
+
+.section-tittle {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #ffffff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-tittle {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-desc {
+    color: #757575;
+
+}
+
+/* what i do ends here */
+
+/* resume starts here */
+.resume-tittle {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume .tittle {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.resume .sub-tittle {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .desc {
+    color: #757575;
+}
+
+.resume-btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* resume ends here */
+
+/* contact starts here */
+.contact {
+    display: flex;
+    gap: 100px;
+    background-color: #fff8f3;
+    padding: 130px 200px;
+    
+}
+
+.connect-tittle {
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.connect-desc {
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.icon img {
+    margin-right: 10px;
+}
+
+.message-tittle {
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 64px;
+}
+
+/* contact ends here */
